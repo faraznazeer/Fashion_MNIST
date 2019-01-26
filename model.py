@@ -42,5 +42,5 @@ test_loss, test_accuracy = model.evaluate(test_images, test_labels)
 print('\n Test accuracy:', test_accuracy)
 
 #save the model
-model.save('keras_trained_model.h5')
+model.save('keras_trained_model.hdf5')
 print("\n Model saved to trained_model.hdf5")
